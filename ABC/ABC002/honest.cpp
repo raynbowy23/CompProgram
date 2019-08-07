@@ -7,9 +7,5 @@ int main(){
 
     int X, Y;
     cin >> X >> Y;
-    if(X > Y){
-        cout << X;
-    }else{
-        cout << Y;
-    }
+    cout << max(X, Y) << "\n";
 }
