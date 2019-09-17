@@ -6,7 +6,11 @@ int main(){
     cin.tie(0);
     ios::sync_with_stdio(false);
 
-    int x;
-    cin >> x;
-    cout << x;
+    int N;
+    cin >> N;
+    int ans = 0;
+    for(int i=0;i<N;i++){
+        ans += i;
+    }
+    cout << ans;
 }
